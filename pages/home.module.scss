@@ -1,0 +1,158 @@
+.divBody {
+    background-color: #11283B;
+    height: 100vh;
+    max-width: 100%;
+    top: 0;
+    margin: 0;
+}
+
+.pucrsImage {
+    position: absolute;
+    width: 50vw;
+    left: 683px;
+    top: 0;
+    opacity: 50%;
+    height: 100vh;
+}
+
+.title {
+    color: #C1A575;
+    font-family: 'GothamSSm', sans-serif;
+    font-size: 34px;
+    margin: 0;
+    padding: 115px;
+
+    .strongPucrs {
+        color: #FFFFFF;
+        font-family: 'GothamSSm', sans-serif;
+    }
+
+    .onLine {
+        color: #FFFFFF;
+        font-family:'Courier New', Courier, monospace
+    }
+}
+
+.container {
+    margin-top: -50px;
+    font-family: 'GothamSSm', sans-serif;
+    color: #C1A575;
+    font-size: 12px;
+}
+
+
+.letterEmail {
+    margin-left: 118px;
+}
+
+.inputEmail {
+    border-radius: 6px;
+    width: 435px;
+    height: 40px;
+    display: block;
+    margin-left: 118px;
+    border-color: #C1A575;
+    margin-top: 8px;
+    background: #FFFFFFCC;
+    letter-spacing: 0.98px;
+}
+
+.senha {
+    margin-top: 26px;
+    
+}
+
+.lookSenha {
+    margin-left: 118px;
+}
+
+
+.inputSenha {
+    border-radius: 6px;
+    box-shadow: none;
+    width: 435px;
+    height: 40px;
+    display: block;
+    margin-left: 118px;
+    margin-top: 5px;
+    border-color: #C1A575;
+    background: #FFFFFFCC;
+    letter-spacing: 0.98px;
+}
+
+
+.passwordForgot {
+    margin-left: 118px;
+    display: block;
+    margin-top: 25px;
+    text-decoration:underline;
+    color:#FFFFFF;
+    font-size: 12px;
+}
+
+
+.buttonEntrar {
+    margin-left: 415px;
+    width: 140px;
+    height: 40px;
+    border-color:#C1A575;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #C1A575;
+    font-family: 'GothamSSm', sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -25px;
+}
+
+
+
+.orEnter {
+    position: absolute;
+    margin-left: 118px; 
+    margin-top: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+
+.facebook {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 80px;
+    display: flex;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: #3B5999E6;
+    border-color: #3B5999E6;
+    border-style: none;
+    font-family: GothamSSm;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+.google {
+    position: absolute;
+    margin-left: 415px;
+    margin-top: 80px;
+    display: flex;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: #CF4332E6;
+    border-color: #CF4332E6;
+    border-style: none;
+    font-family: GothamSSm;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
